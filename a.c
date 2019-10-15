@@ -19,10 +19,10 @@ int main()
     {
             if((n%4==0 && n%100!=0) || n%400==0)
             {
-                printf("12.09.%d",n);
+                printf("%d",n);
             }
             else
-                printf("13.09.%d",n);
+                printf("18.10.%d",n);
         }
 
     return 0;
